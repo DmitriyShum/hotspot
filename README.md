@@ -1,2 +1,3 @@
-# LightningCreations
-Main Website
+# Dmitriy's Hotspot
+
+Main Website for Dmitriy's Hotspot
