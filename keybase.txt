@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dmitriyir
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dhotspot.xyz
+  * I am dmitriyir (https://keybase.io/dmitriyir) on keybase.
+  * I have a public key ASAUjaapl22KOtYTsgEnERL6wREnl9UDobt8MgQnn8hq8go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010175e5f7d3f9bbbdd89121e792209ac1495ce36155f78bab7be8b1c613150dbd410a",
+      "host": "keybase.io",
+      "kid": "0120148da6a9976d8a3ad613b201271112fac1112797d503a1bb7c3204279fc86af20a",
+      "uid": "1eb736d2abf343d3de1a721fa1234b19",
+      "username": "dmitriyir"
+    },
+    "merkle_root": {
+      "ctime": 1608856230,
+      "hash": "9c585a228f5834b662db65f0e3d3bb4218d65d1f4a877c823d6cdaa1989f8268ba17236c7cecf391433f4b2b80c3858917ec34cebbd903fbd4307083e6fbe5cf",
+      "hash_meta": "6940732e50185ef675d2e289f6d9fde3a5e5ec031fc9dba2c6dfa1ad651a67a2",
+      "seqno": 18498875
+    },
+    "service": {
+      "entropy": "IuidFqFxKt6jJEXxNfJi8WKh",
+      "hostname": "dhotspot.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1608856249,
+  "expire_in": 504576000,
+  "prev": "0baac8aac06e83ae053eb1365fe443bd6d2bd19c0e9f44bf360123828eb65ec3",
+  "seqno": 88,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgFI2mqZdtijrWE7IBJxES+sERJ5fVA6G7fDIEJ5/IavIKp3BheWxvYWTESpcCWMQgC6rIqsBug64FPrE2X+RDvW0r0ZwOn0S/NgEjgo62XsPEIN9RoR+4fOWzbFw3+Qee5gPcP8cbmCFJyhBwr/1ZkrQ6AgHCo3NpZ8RAk317FPn/gPTb5DqaK6TcS39fI1FsmpwHXo6oqFSUdgkGrwLO1IiO//zPfYk0AJhUci6VNAR/odlmTdCssGteD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBRzLEprECkvBtO6oCCB8EsigMmNM06GM5WkYFcp6P4co3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dmitriyir
+
+==================================================================
