@@ -1,4 +1,4 @@
-# Welcome to Ivsidb
+# Welcome to DHotspot
 
-## This repository is for the domain: ivsidb.xyz
-### Official website of Ivsidb
+## This repository is for the domain: dhotspot.xyz
+### Official website of Dmitriy.S
