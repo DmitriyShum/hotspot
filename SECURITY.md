@@ -1,6 +1,6 @@
 ## Reporting a Vulnerability
 
-### Please report any suspected vulnerabilities to contace@dhotspot.xyz
+### Please report any suspected vulnerabilities to contact@dhotspot.xyz
 
 ## Repository information:
 
