@@ -1,107 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="icon" type="favicon/ico" href="favicon.ico">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DHotspot Home</title>
-<meta name="description" content="Main page for Dmitriy.S." />
-
-<!--PAGES STYLES-->
-<div id="css">
-  <style>
-    .main{
-      background-image: url("homemainbg.jpg");
-      background-color: #404040;
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      height: auto;
-      width: auto;
-    }
-     .mtext{
-      text-align:center;
-      color:white;
-      text-shadow: 1px 1px black;
-      font-size: 20px;
-    }
-      .mcontainer{
-        width: 300px;
-        height: 300px;
-        margin: auto;
-        box-shadow: 2px 3px 10px;
-        padding: auto;
-
-    }
-      .mclicky{
-    box-shadow:inset 0px 0px 0px 0px #29bbff;
-    background-color:transparent;
-    border-radius:33px;
-    border:3px solid #ffffff;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Times New Roman;
-    font-size:18px;
-    padding:18px 18px;
-    text-decoration:none;
-    text-shadow:2px 1px 10px #263666;
-}
-  </style>
-
-   <style>
-        .eop{
-      position: absolute;
-      color:pink;
-      text-shadow: 1px 1px black;
-      font-size:16px;
-    }
-   </style>
-  </div>
-<!--END OF CSS STYLES.-->
-
+<link rel="icon" type="favicon/ico" href="favicon.ico">
+<link rel="stylesheet" href="css/indexstyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Main page for Dmitriy.S.">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--Page styles are now in a seperate file.-->
   </head>
-<body background="homemainbg.jpg">
-<div class="main">
+<body background="images/homemainbg.jpg">
   <script>
-    alert('By continuing to the website, you accept all cookies. Cookies will be reduced on the next update.');
+  alert('Attention! There is an updated Privacy Policy agreement on the bottom of this page. Please mnake sure to read it before continuing to use the website.');
   </script>
-  <br>
+<div class="main">
+
     <div class="content">
+    <p class="mtext" onclick="alert('You just found a secret!')">DHotspot</p>
+    <!--LINKS-->
+    <center><div style="border-radius:30px;" class="mcontainer">
+     <p class="mtext">Links</p>
+    <a href="aboutdmitriy.html"><img style="margin:auto; width:50px; height:50px; border-radius: 50%;" alt="about dmitriy" src="images/logo.ico"></img></a>
+    <a href="https://dhotspotblog.wordpress.com"><img style="margin:auto; height:50px; width:50px; border-radius:50%;" alt="Wordpress" src="https://dhotspotblog.files.wordpress.com/2022/06/image-4.jpg?w=150"></img></a>
+    <a href="https://is.gd/S3Ykag"><img style="margin:auto; height:50px; width:50px; border-radius:50%;" src="images/profile.jpeg"></img></a>
+    <a href="https://is.gd/ZoU0aF"><img style="margin:auto; height:50px; width:50px; border-radius:50%;" src="images/twitter.png"></img></a>
+  </div></center>
+    <!--END LINKS-->
 
-      <!--TWITTER API-->
-      <center><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hello!</p>&mdash; Dmitriy (@DmitriyShumkin) <a href="https://twitter.com/DmitriyShumkin/status/1258770001546432513?ref_src=twsrc%5Etfw">May 8, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
-      <!--END OF TWITTER API-->
+    <!--PROJECTS-->
+    <center><div style="border-radius:30px" class="mcontainer">
+      <p class="mtext">Projects</p>
+      <p class="mtext"><a style="font-size:20px; color:white;" href="https://www.github.com/DmitriyShum/fidgetcubeapp" target="_blank">* Fidget Cube App</a></p>
+      <p claqss="mtext"><a style="font-size:20px; color:white;" href="#">* More Coming Soon!</a></p>
+    </div></center>
 
-      <div class="mcontainer" style="margin-left:50px;">
-        <img style="width:100px; height:100px; border-radius: 50%;" alt="about dmitriy" src="logo.ico"></img>
-          <br>
-        <a href="aboutdmitriy.html"><h3 class="mtext">About Dmitriy - DHotspot</h3></a>
-      </div>
-
-
-      <div class="mcontainer" style="margin:auto;">
-        <img style="height:100px; width:100px; border-radius:50%;" alt="Wordpress" src="https://dhotspotblog.files.wordpress.com/2022/06/image-4.jpg?w=150"></img>
-        <br>
-        <a href="https://dhotspotblog.wordpress.com"><h3 class="mtext">Dmitriy Blogs - Wordpress</h3></a>
-        <p class="mtext">Find all of Dmitriy’s blogs right here!</p>
-      </div>
-
-      <div class="mcontainer" style="margin-right:50px;">
-        <img style="height:100px; width:100px; border-radius:50%" src="profile.jpeg"></img>
-        <br>
-        <a href="https://is.gd/S3Ykag"><h3 class="mtext">DmitriyShum - Github</h3></a>
-        <br>
-        <p class="mtext">Computer nerd guy in CS that also enjoys nature and music.</p>
-      </div>
 <!--END CONTENT DIV-->
 </div>
-<br>
-
+</div>
 <!--END OF PAGE IS NAMED "eop"-->
 <div class="eop">
-<p>Developed and designed by Dmitriy. Show some support by <a href="https://www.paypal.me/ivsidb23" target="_blank">Donating! ♥</a> Want to send an email? send it to <a href="mailto:contact@dhotspot.xyz">contact@dhotspot.xyz</a>
-</div>
+<p><a style="color:red;" href="https://www.paypal.me/ivsidb23" target="_blank">♥</a> | <b>Read our updated Privacy Policy! : <a href="privacypolicy.html" target="_blank">Here</a> | </b> Contact:<a style="color:red;" href="mailto:contact@dhotspot.xyz"> contact@dhotspot.xyz</a></p>
 </div>
 </body>
 </html>
