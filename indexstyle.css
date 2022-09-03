@@ -13,15 +13,22 @@
   text-shadow: 1px 1px black;
   font-size: 20px;
 }
-  .mcontainer{
-    background-color: transparent;
-    width: 200px;
-    height: auto;
-    margin-top: 50px;
-    border: 3px solid #ffffff;
-    box-shadow: 2px 5px 5px;
-    padding: 50px;
-    position: sticky;
+@keyframes blink{
+  0% {border-color: #ff0000}
+  50% {border-color: #3f0000;}
+  100% {border-color: #ff0000;}
+}
+.mcontainer{
+  background-color: transparent;
+  width: 200px;
+  height: auto;
+  margin: auto;
+  border: 1px solid #ff3f4f;
+  border-radius: 50px;
+  box-shadow: 2px 3px 3px;
+  padding: 50px;
+  position: inherit;
+  animation: blink 3s steps(10, start) infinite;
 }
   .mclicky{
 box-shadow:inset 0px 0px 0px 0px #29bbff;
