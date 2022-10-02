@@ -14,8 +14,10 @@
   font-size: 20px;
 }
 @keyframes blink{
-  0% {border-color: #ff0000}
-  50% {border-color: #3f0000;}
+  0% {border-color: #ff0000;}
+  25% {border-color: #008000;}
+  50% {border-color: #98FB98;}
+  75% {border-color: #0000ff;}
   100% {border-color: #ff0000;}
 }
 .mcontainer{
