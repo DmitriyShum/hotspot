@@ -1,6 +1,6 @@
 .main{
   background-image: url("images/homemainbg.jpg");
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -13,7 +13,7 @@
 }
 .mcontainer{
   background-color: transparent;
-  width: 600px;
+  width: 550px;
   height: auto;
   margin: auto;
   border: 1px solid #ffffff;
@@ -36,10 +36,12 @@
   align-content: center;
   text-shadow: 1px 1px black;
   height: auto;
+  width:auto;
 }
 .navvy a {
   float: left;
   font-size: 16px;
+  width:auto;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -68,4 +70,5 @@ text-shadow:2px 1px 10px #263666;
   color:pink;
   text-shadow: 1px 1px black;
   font-size:16px;
+  bottom:22px;
 }
