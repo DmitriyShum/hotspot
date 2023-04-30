@@ -4,5 +4,5 @@
 
 ## Repository information:
 
-### This Repository is used only by the owner for the website.
+### This Repository is used only by the owner of the website.
 ### 
