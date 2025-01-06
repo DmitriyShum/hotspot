@@ -1,12 +1,36 @@
-.main{
-  background-image:url("images/homemainbg.webp");
-  background-position:center center;
+.intro{
+  background-image:url("images/introbg.webp");
+  background-position-y: top;
+  background-position:center center center;
   background-size:cover;
   background-repeat:no-repeat;
   background-attachment:fixed;
+  height:900px;
+  width:auto;
+}
+.introtext{
+  font-size:50px;
+  color:white;
+  text-shadow:1px 1px 1px black;
+  font-family:'Times New Roman', sans-serif, serif;
+  text-decoration:none;
+  text-align:center;
+  padding-top: 300px;
+}
+body{
+  background-image:url("images/homemainbg.webp");
+  background-position:center center center;
+  background-size:cover;
+  background-repeat:repeat-x, repeat;
+  background-attachment:fixed;
   height:auto;
   width:auto;
-  text-align:center;
+  text-align: center;
+}
+.links{
+  position:sticky;
+  font-size: 18px;
+  color:white;
 }
 .mcontainer{
   box-shadow:inset 0 0 0 0 grey;
@@ -25,7 +49,7 @@
 .mtext{
   color:white;
   text-shadow:1px 1px black;
-  font-family:Times New Roman,serif;
+  font-family:'Times New Roman', Times, serif;
   font-size:20px;
   text-decoration:none;
   text-align:center;
