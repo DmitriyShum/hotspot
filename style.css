@@ -2,21 +2,24 @@ html{
   scroll-behavior: smooth;
 }
 .intro{
-  background-image: url("images/introbg.webp");
-  background-position-y:center;
+  background-image:url("images/introbg.webp");
+  background-position-y: center;
   background-position:center center center;
-  background-size:cover;
+  background-size: cover;
   background-repeat:no-repeat;
   background-attachment:fixed;
-  height:900px;
+  height:500px;
   width:auto;
+  padding-top: 150px;
+}
+.introtext{
   font-size:50px;
   color:white;
   text-shadow:1px 1px 1px black;
   font-family:'Times New Roman', sans-serif, serif;
   text-decoration:none;
   text-align:center;
-  padding-top:250px;
+  padding-top: 2px;
 }
 body{
   background-image:url("images/homemainbg.webp");
@@ -30,7 +33,7 @@ body{
 }
 .links{
   position:sticky;
-  font-size:18px;
+  font-size: 18px;
   color:white;
 }
 .mcontainer{
@@ -40,7 +43,7 @@ body{
   border:1px solid transparent;
   display:inline-block;
   cursor:pointer;
-  padding:20px;
+  padding:8px;
   color:transparent;
   text-align:center;
   width:auto;
@@ -52,7 +55,6 @@ body{
   text-shadow:1px 1px black;
   font-family:'Times New Roman', Times, serif;
   font-size:20px;
-  text-decoration:none;
   text-align:center;
 }
   .mclicky{
@@ -64,21 +66,21 @@ body{
     cursor:pointer;
     padding:12px;
     font-size:18px;
-    text-decoration:none;
     color:white;
+    text-decoration: none;
   }
   .imglink{
-    height:30px;
-    width:30px;
-    border-radius:50%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
   }
   .profile{
     height:auto; 
     width:auto; 
-    max-height:120px; 
-    max-width:120px; 
-    border-radius:50%; 
-    cursor:none;
+    max-height:120px;
+    max-width:120px;
+    border-radius: 50%;
+    cursor: none;
   }
   .eop{
     position:absolute;
@@ -86,7 +88,7 @@ body{
     text-shadow:1px 1px black;
     font-size:14px;
     bottom:auto;
-    text-align:center;
+    text-align: center;
   }
   .aeop{
     color: #c3f3b3;
